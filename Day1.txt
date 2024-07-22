@@ -1,0 +1,14 @@
+Find the Duplicate Number
+
+int findDuplicate(vector<int>& nums) {
+        // int len =nums.size()+1;
+        // int arr[len]={0};
+        map<int,int> arr;
+        for(int i=0;i<nums.size();i++){
+            arr[nums[i]]++;
+            if(arr[nums[i]] >=2){
+                return nums[i];
+            }
+        }
+        return 1;
+    }
