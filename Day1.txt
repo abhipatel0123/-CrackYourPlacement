@@ -38,7 +38,7 @@ int removeDuplicates(vector<int>& nums) {
         return nums.size();
     }
 
-Move Zeros -
+Move Zeros -both 4 and 5
 
 void moveZeroes(vector<int>& nums) {
         int it =0;
